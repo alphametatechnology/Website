@@ -1,0 +1,89 @@
+@font-face {
+	font-family: MiSans;
+	src:url('MiSans-Medium.ttf');
+}
+@font-face {
+	font-family: Syncopate_Bold;
+	src:url('syncopate_bold.ttf');
+}
+* {
+	font-family: MiSans;
+	padding: 0;
+	margin: 0;
+  background-size: cover;
+}
+body {
+  background-size: cover;
+}
+#page {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://img0.baidu.com/it/u=2284782435,2170248613&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=281');
+}
+li {
+  list-style: none;
+}
+ul {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  /*padding: 50px;*/
+  width: 100%;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: inline-block;
+  padding: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+ul #logo {
+  background-size: cover;
+  background-image: url('alphameta.png');
+  padding: 16px;
+  height: 22px;
+  width: 22px;
+}
+ul #logo:hover {
+  background-image: url('alphameta_2.png');
+}
+ul li a:hover {
+  color: #ccc;
+}
+#content {
+  transition: all 0.5s;
+  padding: 150px;
+  color: #fff;
+}
+#title {
+  opacity: 0.0;
+  transition: all 0.5s;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+#con {
+  opacity: 0.0;
+  transition: all 0.5s;
+  font-size: 24px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+#about {
+  opacity: 0.0;
+  transition: all 0.5s;
+  color: white;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
